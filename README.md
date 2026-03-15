@@ -26,15 +26,7 @@ Data-Driven UX: Integrated Microsoft Clarity for real-time user behavior analysi
 
 Global Delivery: Optimized via Cloudflare and multiple CDNs (cdnjs/Unpkg) for low-latency delivery on a global scale.
 
-📂 Project Architecture
-Plaintext
-├── core/               # Next.js 16 App Router & Server Components
-├── api/                # Express & PHP Backend Logic
-├── database/           # MongoDB Schemas & SQL Migrations
-├── styles/             # Modular SCSS & Tailwind Configs
-├── public/             # Optimized Assets with Priority Hinting
-└── security/           # HSTS & Middleware Configurations
-💡 Technical Highlights
+
 Lighthouse Excellence: Achieved 95+ scores across Performance, Accessibility, and SEO.
 
 Modular Styling: Clean separation of concerns using SCSS variables and Tailwind utility classes.
