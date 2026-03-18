@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=Abdullah%20Tahir&fontSize=35&fontColor=ffffff&animation=fadeIn" />
 </p>
 
-<h2 align="center">🚀 Full Stack Developer</h2>
+<h2 align="center"> Full Stack Developer</h2>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=00C6FF&center=true&vCenter=true&width=500&lines=Next.js+Developer;MERN+Stack+Engineer;PHP+%7C+SQL+Developer;Building+Fast+Web+Apps" />
