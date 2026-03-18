@@ -1,34 +1,29 @@
-🛠 Tech Stack Overview
-Frontend: Next.js 16.0.10 | React | HTML5 | CSS3 | SCSS | Tailwind CSS
+<!-- Animated Gradient Wave Header -->
+<svg width="100%" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad">
+      <stop offset="0%" stop-color="#00c6ff">
+        <animate attributeName="stop-color" values="#00c6ff;#0072ff;#00c6ff" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#0072ff">
+        <animate attributeName="stop-color" values="#0072ff;#00c6ff;#0072ff" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
 
-Backend: Node.js | Express.js | PHP | Turbopack
+  <rect width="800" height="200" fill="url(#grad)" />
 
-Database: MongoDB | SQL (PostgreSQL/MySQL)
+  <path fill="#ffffff" fill-opacity="0.3">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="
+      M0,100 C150,200 350,0 800,100 L800,200 L0,200 Z;
+      M0,120 C200,0 400,200 800,120 L800,200 L0,200 Z;
+      M0,100 C150,200 350,0 800,100 L800,200 L0,200 Z
+      " />
+  </path>
 
-Animation: GSAP | Lenis 1.3.15 | ScrollReveal | AOS
-
-Security: HSTS | Secure API Routes
-
-DevOps: Linux | Vercel | Cloudflare | Microsoft Clarity
-
-🚀 Core Engineering Features
-Next-Gen Performance: Powered by Next.js 16 with Turbopack for near-instant builds and Priority Hints for optimized asset loading.
-
-Full-Stack Integration: A seamless MERN architecture (MongoDB, Express, React, Node) combined with PHP/SQL for diverse data management.
-
-Cinematic Experience: High-end motion design using GSAP and Lenis smooth-scrolling to create a fluid, non-linear user journey.
-
-Enterprise Security: Hardened infrastructure utilizing HSTS (HTTP Strict Transport Security) to enforce production-grade encrypted connections.
-
-Advanced UI Primitives: Built with Radix UI for world-class accessibility and Tailwind CSS for a scalable, responsive design system.
-
-Data-Driven UX: Integrated Microsoft Clarity for real-time user behavior analysis and heatmaps to optimize engagement.
-
-Global Delivery: Optimized via Cloudflare and multiple CDNs (cdnjs/Unpkg) for low-latency delivery on a global scale.
-
-
-Lighthouse Excellence: Achieved 95+ scores across Performance, Accessibility, and SEO.
-
-Modular Styling: Clean separation of concerns using SCSS variables and Tailwind utility classes.
-
-Resource Efficiency: Minimized bundle sizes through Turbopack and strategic library imports (Lucide/Font Awesome).
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        font-size="28" fill="white" font-family="Arial">
+    Abdullah Tahir • Full Stack Developer
+  </text>
+</svg>
