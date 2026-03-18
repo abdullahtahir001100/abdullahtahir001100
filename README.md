@@ -10,7 +10,7 @@
 
 ---
 
-## 🛠 Tech Stack  
+## Tech Stack  
 
 <p align="center">
   <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white" />
@@ -27,7 +27,7 @@
 
 ---
 
-## 🚀 Highlights  
+##  Highlights  
 
 <p align="center">
   <img src="https://img.shields.io/badge/⚡%20Performance-Next.js%20%2B%20Turbopack-blue?style=flat-square" />
@@ -43,13 +43,13 @@
 
 ---
 
-## 🌐 Connect  
+##  Connect  
 
 <p align="center">
   <a href="https://github.com/abdullahtahir001100">
     <img src="https://img.shields.io/badge/GitHub-000?style=flat-square&logo=github&logoColor=white" />
   </a>
-  <a href="#">
+  <a href="https://portfolio.abdullahtahir.me/">
     <img src="https://img.shields.io/badge/Portfolio-00C6FF?style=flat-square&logo=vercel&logoColor=white" />
   </a>
 </p>
@@ -57,5 +57,5 @@
 ---
 
 <p align="center">
-  💻 Building fast, scalable & modern web applications 🚀
+  Building fast, scalable & modern web applications 
 </p>
